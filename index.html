@@ -5,23 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <div class="container">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><h1>Chata u zeleného pole</h1></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-4" href="#"><b>+420 123 456 789</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-4" href="#"><img src="images/fb.png" height="30px"> </a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link pt-4" href="#"><img src="images/ig.png" height="30px"></a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    </div>
+  </nav>
     
     <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
         
         <div class="container-fluid">
-          <a class="navbar-brand text-white" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <div class="container">
+          
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active text-white px-4" aria-current="page" href="#">Home</a>
+                <a class="nav-link active text-white px-4" aria-current="page" href="#">Domů</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white px-4" href="#">Features</a>
+                <a class="nav-link text-white px-4" href="#">Galerie</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white px-4" href="#">Pricing</a>
@@ -32,9 +58,10 @@
             </ul>
           </div>
         </div>
+        </div>
       </nav>
       <div class="container">
-        <div id="carouselExampleCaptions" class="carousel slide pb-3">
+        <div id="carouselExampleCaptions" class="carousel slide pb-3g">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -43,24 +70,13 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="images/chata.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 class="fs-1 text-center">Chata U Zeleného Pole</h1>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
+                
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
+                <img src="images/chata2.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
+                <img src="images/chata3.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -74,8 +90,54 @@
           </div>
       </div>
       <div class="container">
-        <p class="py-3 px-2 bg-success-subtle">Naše malá chata je útulný a klidný únik z městského shonu, ideální pro relaxaci a odpočinek. Nabízíme pohodlné ubytování pro 2 až 4 osoby, plně vybavenou kuchyň, koupelnu, terasu s výhledem na přírodu a tenisové hřiště. Hosté zde mohou vychutnat klidné procházky po okolním poli, grilování na terase, a večerní pozorování hvězd. Chatka je vybavena základními potřebami, jako je WiFi, televize a topení, aby váš pobyt byl co nejpříjemnější. Je to ideální místo pro páry, rodiny nebo jednotlivce, kteří touží po odpočinku v přírodě.</p>
-
+        <h2 class= "py-3 px-2">Informace pro návštěvníky</h2>
+        <p>Naše malá chata je útulný a klidný únik z městského shonu, ideální pro relaxaci a odpočinek. Nabízíme pohodlné ubytování pro 2 až 4 osoby, plně vybavenou kuchyň, koupelnu, terasu s výhledem na přírodu, tenisové hřiště a přístup k řece. Hosté zde mohou vychutnat klidné procházky po okolním poli, grilování na terase, večerní pozorování hvězd, a rybaření. Chatka je vybavena základními potřebami, jako je WiFi, televize a topení, aby váš pobyt byl co nejpříjemnější. Je to ideální místo pro páry, rodiny nebo jednotlivce, kteří touží po odpočinku v přírodě.</p>
+        <h3 class= "py-3 px-2">Ceník</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Víkendový pobyt (pátek a sobota)</th>
+              <th scope="col">Dlouhý víkend (pátek až neděle)</th>
+              <th scope="col">Střední týden (pondělí až čtvrtek)</th>
+              <th scope="col">Týdenní pobyt (7 nocí)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">2 osoby</th>
+              <td>1500 Kč</td>
+              <td>4000 Kč</td>
+              <td>1200 Kč</td>
+              <td>8000 Kč</td>
+            </tr>
+            <tr>
+              <th scope="row">3 až 4 osoby</th>
+              <td>2000 Kč</td>
+              <td>5500 Kč</td>
+              <td>1800 Kč</td>
+              <td>11000 Kč</td>
+            </tr>
+            
+          </tbody>
+        </table>
+        <h3 class="pt-3 pb-1">Rezervace</h3>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
     
 </body>

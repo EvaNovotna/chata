@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Oxygen&display=swap');
+
+h1 {
+    font-family: 'Archivo', sans-serif;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+}
