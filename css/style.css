@@ -8,3 +8,8 @@ body {
     font-size: 20px;
     font-family: 'Oxygen', sans-serif;
 }
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
