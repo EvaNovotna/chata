@@ -13,3 +13,8 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.iframe {
+    border: 0;
+    width: 400px;
+}
